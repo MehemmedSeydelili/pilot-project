@@ -1,0 +1,13 @@
+
+server:
+  port: 8888
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:3306/pilot-project
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
